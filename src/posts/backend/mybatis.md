@@ -11,9 +11,7 @@ stick: 999
 ---
 
 
-
 <img src="https://mybatis.org/images/mybatis-logo.png">
-
 
 
 ## 简介
@@ -67,7 +65,7 @@ stick: 999
 
 > 配置标签顺序(核心配置文件中的==标签顺序必须符合下面顺序==)
 
-<img src="https://gitee.com/clibin/image-bed/raw/master/image-20231013140702442.png" alt="图片没了" style="float: left;">
+<img src="https://img2.imgtp.com/2024/05/26/qXxd2Nkr.png">
 
 > 核心配置文件`mybatis-config.xml`示例
 
