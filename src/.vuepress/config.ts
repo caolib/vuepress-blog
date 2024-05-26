@@ -1,5 +1,4 @@
 import { defineUserConfig } from "vuepress";
-import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -13,7 +12,7 @@ export default defineUserConfig({
     },
     "/": {
       lang: "zh-CN",
-      title: "平凡世界",
+      title: "",
       description: "生活不简单,尽量简单过",
     },
   },

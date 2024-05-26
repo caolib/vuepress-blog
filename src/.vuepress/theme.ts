@@ -3,54 +3,56 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://caolib.pages.dev",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "caolibin",
+    url: "https://github.com/caolib",
+    email: "1265501579@qq.com"
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://img2.imgtp.com/2024/05/26/dequKQxT.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "caolib/vuepress-blog",
 
   docsDir: "src",
 
   blog: {
+    name: "caolibin",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      GitHub: "https://github.com/caolib",
+      Gitee: "https://gitee.com/clibin",
+      Email: "1265501579@qq.com",
+      BiliBili: "https://space.bilibili.com/441126797",
+      Gmail: "tankingcao@gmail.com",
+      // QQ: "https://example.com",
+      // Baidu: "https://example.com",
+      // Bitbucket: "https://example.com",
+      // Dingding: "https://example.com",
+      // Discord: "https://example.com",
+      // Dribbble: "https://example.com",
+      // Evernote: "https://example.com",
+      // Facebook: "https://example.com",
+      // Flipboard: "https://example.com",
+      // Gitlab: "https://example.com",
+      // Instagram: "https://example.com",
+      // Lark: "https://example.com",
+      // Lines: "https://example.com",
+      // Linkedin: "https://example.com",
+      // Pinterest: "https://example.com",
+      // Pocket: "https://example.com",
+      // Qzone: "https://example.com",
+      // Reddit: "https://example.com",
+      // Rss: "https://example.com",
+      // Steam: "https://example.com",
+      // Twitter: "https://example.com",
+      // Wechat: "https://example.com",
+      // Weibo: "https://example.com",
+      // Whatsapp: "https://example.com",
+      // Youtube: "https://example.com",
+      // Zhihu: "https://example.com",
       VuePressThemeHope: [
         "https://theme-hope.vuejs.press",
         "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -71,7 +73,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "一个普通大学牲",
         intro: "/intro.html",
       },
 
@@ -116,16 +118,34 @@ export default hopeTheme({
   // enable it to preview all changes in time
   // hotReload: true,
 
+
+  // <script src="https://giscus.app/client.js"
+  // data- repo="caolib/giscus-for-vuepress"
+  //       data - repo - id="R_kgDOMApCwQ"
+  //       data - category="Announcements"
+  //       data - category - id="DIC_kwDOMApCwc4CfnMa"
+  //       data - mapping="pathname"
+  //       data - strict="0"
+  //       data - reactions - enabled="1"
+  //       data - emit - metadata="0"
+  //       data - input - position="bottom"
+  //       data - theme="dark"
+  //       data - lang="zh-CN"
+  //       data - loading="lazy"
+  //       crossorigin = "anonymous"
+  //       async >
+  // </script>
+
   plugins: {
     blog: true,
 
-    // Install @waline/client before enabling it
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "caolib/giscus-for-vuepress",
+      repoId: "R_kgDOMApCwQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOMApCwc4CfnMa"
+    },
 
     components: {
       components: ["Badge", "VPCard"],
