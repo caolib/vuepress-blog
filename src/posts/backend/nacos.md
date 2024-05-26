@@ -6,7 +6,7 @@ tags:
   - springcloud
   - nacos
 cover: https://img2.imgtp.com/2024/04/26/Ekm1nLB8.jpeg
-stick: 478
+sticky: 478
 ---
 
 # 快速入土

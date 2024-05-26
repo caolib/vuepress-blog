@@ -5,6 +5,8 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://caolib.pages.dev",
 
+  navbar: ["/guide/README.md", "/config/README.md", "/faq.md"],
+
   author: {
     name: "caolibin",
     url: "https://github.com/caolib",
@@ -118,27 +120,11 @@ export default hopeTheme({
   // enable it to preview all changes in time
   // hotReload: true,
 
-
-  // <script src="https://giscus.app/client.js"
-  // data- repo="caolib/giscus-for-vuepress"
-  //       data - repo - id="R_kgDOMApCwQ"
-  //       data - category="Announcements"
-  //       data - category - id="DIC_kwDOMApCwc4CfnMa"
-  //       data - mapping="pathname"
-  //       data - strict="0"
-  //       data - reactions - enabled="1"
-  //       data - emit - metadata="0"
-  //       data - input - position="bottom"
-  //       data - theme="dark"
-  //       data - lang="zh-CN"
-  //       data - loading="lazy"
-  //       crossorigin = "anonymous"
-  //       async >
-  // </script>
-
+  // 插件
   plugins: {
     blog: true,
 
+    // 评论系统
     comment: {
       provider: "Giscus",
       repo: "caolib/giscus-for-vuepress",
@@ -151,7 +137,7 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    // These features are enabled for demo, only preserve features you need here
+    // md功能增强
     mdEnhance: {
       align: true,
       attrs: true,
