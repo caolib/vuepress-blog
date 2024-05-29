@@ -389,5 +389,5 @@ Emp getByFirstNameEmp(String name);
 
 > 更多动态SQL用法见[官网](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
 >
-> 接下来，了解进阶框架==mybatis-plus==
+> 接下来，了解进阶框架**mybatis-plus**
 
