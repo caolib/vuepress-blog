@@ -43,5 +43,5 @@ projects:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-# footer: 逝者如斯夫
+footer: 逝者如斯夫
 ---
