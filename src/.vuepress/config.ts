@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
+import path from "path";
 
 export default defineUserConfig({
   base: "/",
@@ -13,12 +13,18 @@ export default defineUserConfig({
     },
     "/": {
       lang: "zh-CN",
-      title: "平凡世界",
+      title: "",
       description: "生活不简单,尽量简单过",
     },
   },
 
   theme,
+  alias: {
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+      __dirname,
+      "./components/BlogHero.vue",
+    ),
+  },
 
   // Enable it with pwa
   // shouldPrefetch: false,

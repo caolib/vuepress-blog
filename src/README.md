@@ -2,47 +2,46 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+title: Home
+heroText: 平凡世界
+tagline: 生活不简单，尽量简单过
+bgImage: https://files.codelife.cc/wallhaven/full/7p/wallhaven-7pje5o.png?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
 heroFullScreen: true
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+  - icon: article
+    name: 我的md文章
+    desc: 一些杂乱的笔记和经验分享
+    link: https://github.com/caolib/md_notes
+
+  - icon: blog
+    name: 学海无涯
+    desc: 我的另一个使用Hexo部署的网站
+    link: https://clb.pages.dev
 
   - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+    name: caolib
+    desc: 我的github主页
+    link: https://github.com/caolib
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+#   - icon: project
+#     name: 项目名称
+#     desc: 项目详细描述
+#     link: https://你的项目链接
 
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+#   - icon: link
+#     name: 链接名称
+#     desc: 链接详细描述
+#     link: https://链接地址
 
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+#   - icon: book
+#     name: 书籍名称
+#     desc: 书籍详细描述
+#     link: https://你的书籍链接
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
+#   - icon: https://theme-hope-assets.vuejs.press/logo.svg
+#     name: 自定义项目
+#     desc: 自定义详细介绍
+#     link: https://你的自定义链接
 
-footer: customize your footer text
+footer: 逝者如斯夫
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home.html).
