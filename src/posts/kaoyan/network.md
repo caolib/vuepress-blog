@@ -4,7 +4,7 @@ date: 2023-10-26 21:04:32
 categories: 考研
 tags:
   - 计算机网络
-cover: https://s2.loli.net/2024/06/09/nIrGAYdX8DCthoE.webp
+cover: https://s2.loli.net/2024/06/09/oDMZ8ErVu49t5lv.webp
 sticky: 10000
 ---
 
