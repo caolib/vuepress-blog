@@ -127,10 +127,10 @@ export default hopeTheme({
     // 评论系统
     comment: {
       provider: "Giscus",
-      repo: "caolib/giscus-for-vuepress",
-      repoId: "R_kgDOMApCwQ",
+      repo: "caolib/vuepress-blog",
+      repoId: "R_kgDOMAGDLw",
       category: "Announcements",
-      categoryId: "DIC_kwDOMApCwc4CfnMa"
+      categoryId: "DIC_kwDOMAGDL84Cf9nj"
     },
 
     components: {
