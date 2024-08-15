@@ -15,7 +15,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://s2.loli.net/2024/06/02/wuJknzxaFigDSdL.gif",
+  // logo: "https://s2.loli.net/2024/06/02/wuJknzxaFigDSdL.gif",
+  logo: "https://s2.loli.net/2024/08/15/U2FoEPRp18DOnHh.jpg",
 
   repo: "caolib/vuepress-blog",
 
