@@ -1,2 +1,16 @@
-// you can change colors here
+@font-face {
+    font-family: 'mzgzt';
+    src: url('./mzgzt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-family: 'Cascadia Code', 'mzgzt', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}
+
 $theme-color: #ff6b6b;
+
+$font-family: var(--font-family);
+$font-family-heading: var(--font-family);
+$font-family-mono: var(--font-family);
