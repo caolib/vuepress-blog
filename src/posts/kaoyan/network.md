@@ -8,9 +8,6 @@ cover: https://s2.loli.net/2024/06/09/oDMZ8ErVu49t5lv.webp
 sticky: 10000
 ---
 
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=cascadia+code&size=80&duration=3500&pause=1000&color=078EFF&center=true&vCenter=true&random=false&width=1000&height=100&lines=computer+network)](https://git.io/typing-svg)
-
 # 计算机网络
 
 ## 1. 计算机网络概述
@@ -400,11 +397,11 @@ sticky: 10000
 
 ### 3.2 封装成帧和透明传输
 
-#### 3.2.1 封装成帧
+#### 封装成帧
 
 ![封装成帧](https://clb.pages.dev/img/pics/202310291347647.png)
 
-#### 3.2.2 <span style = 'color:#ff6b6b'>透明传输问题</span>
+#### <span style = 'color:#ff6b6b'>透明传输问题</span>
 
 > **<mark>2. 透明传输问题出现原因</mark>**：上层应用交付的数据单元中可能<mark>含有和帧定界符相同的数据</mark>而被接收端误认为帧定界符从而导致错误。
 >
@@ -414,13 +411,13 @@ sticky: 10000
 
 <img src="https://clb.pages.dev/img/pics/202310291859630.png" alt="透明传输问题" style="zoom: 67%;" />
 
-#### 3.2.3 解决透明传输问题
+#### 解决透明传输问题
 
-1. **<mark>字符填充</mark>(字节填充)**
+> **<mark>字符填充</mark>(字节填充)**
 
 ![字符填充](https://clb.pages.dev/img/pics/image-20231029190744213.png)
 
-2. **<mark>零比特填充</mark>**
+> **<mark>零比特填充</mark>**
 
 **扫描要发送的信息，<span style='color:#ff6b6b'>如果有连续的5个1，立即插入1个0</span>>，接收端逆操作即可（01111110为帧定界符）**
 

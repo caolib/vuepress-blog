@@ -6,7 +6,8 @@ title: Home
 heroText: 平凡世界
 tagline: 生活不简单，尽量简单过
 # bgImage: https://files.codelife.cc/wallhaven/full/7p/wallhaven-7pje5o.png?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
-bgImage: https://s2.loli.net/2024/06/08/OuBm1fjeIH2VLX8.webp
+# bgImage: https://s2.loli.net/2024/06/08/OuBm1fjeIH2VLX8.webp
+bgImage: https://s2.loli.net/2024/06/09/lEWMHmvi2SqV41F.webp
 heroFullScreen: true
 projects:
   - icon: article

@@ -26,6 +26,19 @@ export default defineUserConfig({
     ),
   },
 
+  head: [
+    [
+      'script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?e196c39b23ae3f9df9094844f2f809d9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+        `
+    ]
+  ]
   // Enable it with pwa
   // shouldPrefetch: false,
 });
