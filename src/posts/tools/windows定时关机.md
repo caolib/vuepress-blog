@@ -29,6 +29,7 @@ stick: 123
 ![image-20240319224152722](https://s2.loli.net/2024/09/25/upVvQNW6Zt2IdC8.png)
 
 6. 条件
+> **添加这个条件后，即使电脑在休眠，也会自动唤醒电脑然后关机！**
 
 ![image-20240319224409803](https://s2.loli.net/2024/09/25/Ex9OzeNFTprJBdt.png)
 
