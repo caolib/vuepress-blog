@@ -62,10 +62,6 @@ cover: https://s2.loli.net/2024/06/09/ZuWeizVmJ3DNOgq.webp
 
 ### 核心配置文件
 
-> 配置标签顺序(核心配置文件中的==标签顺序必须符合下面顺序==)
-
-<img src="https://img2.imgtp.com/2024/05/26/qXxd2Nkr.png">
-
 > 核心配置文件`mybatis-config.xml`示例
 
 
