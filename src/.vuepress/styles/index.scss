@@ -1,14 +1,18 @@
 @font-face {
-    font-family: 'mzgzt';
-    src: url('./mzgzt.ttf') format('truetype');
+    font-family: '喵字果汁体';
+    src: url('./fonts/mzgzt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
-    --font-family: 'Cascadia Code', 'mzgzt', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+    --font-family: 'Cascadia Code', '喵字果汁体', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
 }
 
+mark,
+a,
+div,
+span,
 body {
     font-family: var(--font-family);
 }
