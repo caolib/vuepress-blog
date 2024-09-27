@@ -125,31 +125,30 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    /* 
-<script src="https://giscus.app/client.js/client.js"
-        data-repo="caolib/vuepress-blog"
-        data-repo-id="R_kgDOMAGDLw"
-        data-category="General"
-        data-category-id="DIC_kwDOMAGDL84Cf9nk"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>*/
+    //     <script src="https://giscus.app/client.js"
+    //     data-repo="caolib/giscus-for-vuepress"
+    //     data-repo-id="R_kgDOMApCwQ"
+    //     data-category="Announcements"
+    //     data-category-id="DIC_kwDOMApCwc4CfnMa"
+    //     data-mapping="pathname"
+    //     data-strict="0"
+    //     data-reactions-enabled="1"
+    //     data-emit-metadata="0"
+    //     data-input-position="bottom"
+    //     data-theme="preferred_color_scheme"
+    //     data-lang="zh-CN"
+    //     crossorigin="anonymous"
+    //     async>
+    // </script>
 
     // 评论系统
     comment: {
       provider: "Giscus",
-      repo: "caolib/vuepress-blog",
-      repoId: "R_kgDOMAGDLw",
-      category: "General",
-      categoryId: "DIC_kwDOMAGDL84Cf9nk",
-      mapping: "url",
+      repo: "caolib/giscus-for-vuepress",
+      repoId: "R_kgDOMApCwQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOMApCwc4CfnMa",
+      mapping: "pathname",
     },
 
     components: {
